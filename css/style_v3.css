@@ -16009,3 +16009,134 @@ div.single-product-rating .icon {
 		filter: drop-shadow(4px 5px 5px #fff);
 	}
 }
+
+.dv_pop__
+{
+	width: 120%;
+	position: relative;
+	top: -20px;
+	left: -30px;
+	display: flex;
+	justify-content: center;
+}
+
+.pop__
+{
+	position: absolute;
+	left: 0;
+	z-index: 999;
+}
+
+.dv__btn__agree
+{
+	position: absolute;
+	z-index: 999;
+	display: flex;
+	align-items: flex-end;
+	top: 160px;
+}
+
+.btn__agree
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 75%;
+	position: relative;
+}
+
+.btn__ok
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 75%;
+	position: relative;
+	padding-top: 15px;
+}
+
+.btn__disagree
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 75%;
+	position: relative;
+}
+
+
+@media(min-width: 562px) and (max-width: 690px)
+{
+	.dv__btn__agree
+	{
+		top: 125px !important;
+	}
+}
+
+@media(min-width: 542px) and (max-width: 561px)
+{
+	.dv__btn__agree
+	{
+		top: 170px !important;
+	}
+}
+
+@media(min-width: 512px) and (max-width: 541px)
+{
+	.dv__btn__agree
+	{
+		top: 150px !important;
+	}
+}
+
+@media(min-width: 492px) and (max-width: 511px)
+{
+	.dv__btn__agree
+	{
+		top: 130px !important;
+	}
+}
+
+@media(min-width: 479px) and (max-width: 491px)
+{
+	.dv__btn__agree
+	{
+		top: 120px !important;
+	}
+}
+
+@media(min-width: 466px) and (max-width: 478px)
+{
+	.dv__btn__agree
+	{
+		top: 110px !important;
+	}
+}
+
+@media(min-width: 100px) and (max-width: 465px)
+{
+	.dv__btn__agree
+	{
+		top: 105px !important;
+	}
+}
+
+/*tamaño del popup*/
+
+@media(min-width: 100px) and (max-width: 375px)
+{
+	.dv_pop__
+	{
+		width: 140% !important;
+	}
+}
+
+@media(min-width: 376px) and (max-width: 518px)
+{
+	.dv_pop__
+	{
+		width: 130% !important;
+		top: 0px !important;
+		left: -27px;
+	}
+}
