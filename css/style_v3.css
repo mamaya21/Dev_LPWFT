@@ -1,63 +1,31 @@
 @charset "UTF-8";
-/**
- * [Table of contents]
- *   1 Reset Styles
- *   2 Context Styles
- *   3 Helpers
- *     3.1 Page layout
- *     3.2 Text styling
- *     3.3 Offsets
- *     3.4 Sections
- *     3.5 Grid modules
- *     3.6 Backgrounds
- *     3.7 Utilities custom
- *   4 Plugins
- *     4.1 Animate
- *     4.2 Preloader
- *     4.3 ToTop
- *     4.4 RD Navbar
- *     4.5 Swiper
- *     4.6 Google Map
- *     4.7 Search Results
- *     4.8 Isotope
- *     4.9 Nav custom
- *     4.10 Panel custom
- *     4.11 Tooltop Custom
- *     4.12 Counter
- *     4.13 Progress Bars
- *     4.14 Circle Progress Bars
- *     4.15 Time Circles
- *     4.16 Owl Carousel
- *     4.17 Lightgallery
- *     4.18 Material Parallax
- *   5 Components
- *     5.1 Typography
- *     5.2 Banners
- *     5.3 Brand
- *     5.4 Links
- *     5.5 Blocks
- *     5.6 Boxes
- *     5.7 Groups
- *     5.8 Responsive units
- *     5.9 Lists
- *     5.10 Images
- *     5.11 Icons
- *     5.12 Tables custom
- *     5.13 Dividers
- *     5.14 Buttons
- *     5.15 Forms
- *     5.16 Posts
- *     5.17 Quotes
- *     5.18 Thumbnails
- *     5.19 Breadcrumbs
- *     5.20 Pagination custom
- *     5.21 Snackbars
- *     5.22 Footers
- *     5.23 Single Product
- *     5.24 Overlay
- *     5.25 Landing
- */
-/** @section Reset Styles*/
+
+@font-face{
+	font-family: Rajdhani;
+	src: url(../fonts/personalizadas/RAJDHANI-REGULAR.TTF);
+}
+
+@font-face{
+	font-family: RajdhaniBold;
+	src: url(../fonts/personalizadas/RAJDHANI-BOLD.TTF);
+}
+
+@font-face{
+	font-family: RajdhaniMedium;
+	src: url(../fonts/personalizadas/RAJDHANI-MEDIUM.TTF);
+}
+
+@font-face{
+	font-family: RajdhaniLight;
+	src: url(../fonts/personalizadas/RAJDHANI-LIGHT.TTF);
+}
+
+@font-face{
+	font-family: RajdhaniSemibold;
+	src: url(../fonts/personalizadas/RAJDHANI-SEMIBOLD.TTF);
+}
+
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -14824,10 +14792,33 @@ div.single-product-rating .icon {
 	background-position: center;
 }
 
-.dv__default
+.dv__default1
 {
-	min-height: 400px !important;
+	min-height: 150px !important;
+	top: 55px;
 }
+
+.dv__default2
+{
+	min-height: 0,25px !important;
+}
+
+.pers_tittle
+{
+	font-family: Helvetica, Sans-Serif;;
+	font-size: 55px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.pers_subtittle
+{
+	font-family: Helvetica, Sans-Serif;;
+	font-size: 24px;
+	font-weight: 100;
+	margin-top: -28px;
+}
+
 
 .t_t__lp
 {
@@ -14894,6 +14885,19 @@ div.single-product-rating .icon {
 #dv__5
 {
 	margin-right: 40px;
+	padding-right: 50px;
+	padding-left: 30px;
+	top: 50px;
+}
+
+.desc__txt
+{
+	text-align: left;
+}
+
+.space__p
+{
+	max-height: 15px;
 }
 
 /*controlar centrado del div*/
