@@ -14852,6 +14852,12 @@ div.single-product-rating .icon {
 		min-height: 150px !important;
 		top: 90px;
 	}
+
+	.txt__token
+	{
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
 }
 
 @media(min-width:1280px) and (max-width:1679px) and (min-height: 901px)
@@ -14941,8 +14947,6 @@ div.single-product-rating .icon {
 
 @media(min-width:1200px) and (max-width:1679px)
 {
-	
-
 	.pers_tittle 
 	{
 		font-size: 45px !important;
