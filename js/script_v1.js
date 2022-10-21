@@ -1200,7 +1200,7 @@
 						toggleSwiperCaptionAnimation(swiper);
 						initLightGalleryItem(s.find('[data-lightgallery="item"]'), 'lightGallery-in-carousel');
 					},
-					mousewheelControl: true,
+					// mousewheelControl: true,
 				});
 			}
 		}
