@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700%7COpen+Sans:400,600,700%7CSource+Code+Pro:300,400,500,600,700,900%7CNothing+You+Could+Do%7CPoppins:400,500">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style_v3.css">
+    <link rel="stylesheet" href="css/style_v5.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -69,8 +69,11 @@
                       <div class="space__p"><br></div>
 
                       <div class = "dv_pop__" id="dv_pop__01">
-                        <img class = "pop__" src="images/bg/Pop_01.jpg" alt="">
-
+                        <img class = "pop__" src="images/bg/Pop_02_vacio.jpg" alt="">
+                        <div class="dv_txt__pops">
+                          <p class="txt__pops">If you apply for an Account transfer, the existing account linked to Steam will disappear</p>
+                        </div>
+                        
                         <div class="button-wrap dv__btn__agree" data-caption-animate="fadeInUp" data-caption-delay="300">
                           <a href="#"><img src="images/bg/agree buttom.jpg" alt="" class="btn__agree" onclick="env_agree()"></a>
 
@@ -79,10 +82,24 @@
                       </div>
 
                       <div class = "dv_pop__" id="dv_pop__02">
-                        <img class = "pop__" src="images/bg/Pop_02.jpg" alt="">
+                        <img class = "pop__" src="images/bg/Pop_02_vacio.jpg" alt="">
 
-                        <div class="button-wrap dv__btn__agree" data-caption-animate="fadeInUp" data-caption-delay="300">
+                        <div class="dv_txt__pops">
+                          <p class="txt__pops__2" id="p__dv__txt__2">Thank you<br> We will safely transfer your game data.</p>
+                        </div>
+
+                        <div id="btn__pops2" class="button-wrap dv__btn__agree" data-caption-animate="fadeInUp" data-caption-delay="300">
                             <a href="#"><img src="images/bg/ok_buttom.jpg" alt="" class="btn__ok" onclick="env_end()"></a>
+                        </div>
+                      </div>
+
+                      <div class = "dv_pop__" id="dv_pop__03">
+                        <img class = "pop__" src="images/bg/Pop_03_vacio.jpg" alt="">
+
+                        <div class="dv_txt__pops__2">
+                          <p class="txt__pops__2">Submit Failed<br>please check your steam ID & transfer token number and retry again</p>
+                          <p id="txt__pops__3" class="txt__pops__3"></p>
+
                         </div>
                       </div>
               
@@ -94,7 +111,7 @@
                         <h5 class="t_t__lp" data-caption-animate="fadeInUp" data-caption-delay="200">Transfer Token Number</h5>
                         <input class="txt__token" type="text" class="form-control" id="token">
                         <h5 class="t_t__lp" data-caption-animate="fadeInUp" data-caption-delay="200">Callsign</h5>
-                        <input class="txt__token" type="text" class="form-control" id="token">
+                        <input class="txt__token" type="text" class="form-control" id="callsign">
               
                       </div>
               
@@ -126,7 +143,8 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script_v1.js"></script>
-    <script src="js/script_func.js"></script>
+    <script src="js/script_func_v0.js"></script>
+    <script src="js/moment.js"></script>
     <script>
       console.log('w: '+window.screen.width);
       console.log('h: '+window.screen.height);
